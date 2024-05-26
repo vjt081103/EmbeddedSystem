@@ -1,0 +1,10 @@
+.\objects\switch.o: SWITCH.c
+.\objects\switch.o: SWITCH.h
+.\objects\switch.o: .\RTE\Device\MKL46Z256VLL4\MKL46Z4.h
+.\objects\switch.o: E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\switch.o: E:\Keli\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\switch.o: E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\switch.o: E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\switch.o: E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\switch.o: .\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h
+.\objects\switch.o: LED.h
