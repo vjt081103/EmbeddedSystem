@@ -1,7 +1,6 @@
 Dependencies for Project 'project1', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
-F (.\main.c)(0x664CD860)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (LED.h)(0x664B78D7)
+F (.\main.c)(0x665F1CB4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65EEC00C)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
@@ -9,9 +8,9 @@ I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
 I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65EEC00C)
-I (SWITCH.h)(0x664B7905)
-I (LCD.h)(0x664CD675)
-I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_slcd.h)(0x65EEC00D)
+I (I2C.h)(0x665E16C9)
+I (.\RTE\Board_Support\MKL46Z256VLL4\board.h)(0x665E191C)
+I (.\RTE\Board_Support\MKL46Z256VLL4\clock_config.h)(0x65EEC00D)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65EEC00D)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
@@ -21,9 +20,18 @@ I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65EEC00C)
 I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65EEC00C)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65EEC00D)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_gpio.h)(0x65EEC00D)
-F (.\LED.h)(0x664B78D7)()
-F (.\LED.c)(0x664B7883)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
-I (LED.h)(0x664B78D7)
+I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_i2c.h)(0x65EEC00D)
+I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\fsl_debug_console.h)(0x65EEC00D)
+I (.\RTE\Board_Support\MKL46Z256VLL4\pin_mux.h)(0x65EEC00D)
+I (LED.h)(0x665F21C8)
+I (SYSTICKTIMER.h)(0x665E77DF)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E4AD2)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E4AD2)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\float.h)(0x5E8E4AD2)
+I (SWITCH.h)(0x665F1FFC)
+F (.\LED.h)(0x665F21C8)()
+F (.\LED.c)(0x665F21BF)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (LED.h)(0x665F21C8)
 I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65EEC00C)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
@@ -31,9 +39,9 @@ I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
 I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65EEC00C)
-F (.\SWITCH.h)(0x664B7905)()
-F (.\SWITCH.c)(0x664B8A08)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\switch.o --omf_browse .\objects\switch.crf --depend .\objects\switch.d)
-I (SWITCH.h)(0x664B7905)
+F (.\SWITCH.h)(0x665F1FFC)()
+F (.\SWITCH.c)(0x665F214E)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\switch.o --omf_browse .\objects\switch.crf --depend .\objects\switch.d)
+I (SWITCH.h)(0x665F1FFC)
 I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65EEC00C)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
@@ -41,10 +49,10 @@ I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
 I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65EEC00C)
-I (LED.h)(0x664B78D7)
-F (.\SYSTICKTIMER.h)(0x664B790A)()
-F (.\SYSTICKTIMER.c)(0x6648F3EA)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\systicktimer.o --omf_browse .\objects\systicktimer.crf --depend .\objects\systicktimer.d)
-I (SYSTICKTIMER.h)(0x664B790A)
+I (LED.h)(0x665F21C8)
+F (.\SYSTICKTIMER.h)(0x665E77DF)()
+F (.\SYSTICKTIMER.c)(0x665E77F7)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\systicktimer.o --omf_browse .\objects\systicktimer.crf --depend .\objects\systicktimer.d)
+I (SYSTICKTIMER.h)(0x665E77DF)
 I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65EEC00C)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
@@ -52,9 +60,10 @@ I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
 I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65EEC00C)
-F (.\LCD.h)(0x664CD675)()
-F (.\LCD.c)(0x664CD9EB)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
-I (LCD.h)(0x664CD675)
+F (.\LCD.h)(0x665E155C)()
+F (.\LCD.c)(0x665E7CBC)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+F (.\I2C.h)(0x665E16C9)()
+F (.\I2C.c)(0x665EBDE4)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
 I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65EEC00C)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
@@ -62,16 +71,6 @@ I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
 I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
 I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65EEC00C)
-I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_slcd.h)(0x65EEC00D)
-I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65EEC00D)
-I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
-I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
-I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
-I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
-I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65EEC00C)
-I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65EEC00C)
-I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65EEC00D)
-I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_gpio.h)(0x65EEC00D)
 F (RTE/Board_Support/MKL46Z256VLL4/board.c)(0x65EEC00D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65EEC00D)
@@ -90,10 +89,10 @@ I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65EEC00C)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65EEC00D)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_port.h)(0x65EEC00D)
 I (RTE/Board_Support/MKL46Z256VLL4/clock_config.h)(0x65EEC00D)
-I (RTE/Board_Support/MKL46Z256VLL4/board.h)(0x65EEC00D)
+I (RTE/Board_Support/MKL46Z256VLL4/board.h)(0x665E191C)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_gpio.h)(0x65EEC00D)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\fsl_debug_console.h)(0x65EEC00D)
-F (RTE/Board_Support/MKL46Z256VLL4/board.h)(0x65EEC00D)()
+F (RTE/Board_Support/MKL46Z256VLL4/board.h)(0x665E191C)()
 F (RTE/Board_Support/MKL46Z256VLL4/clock_config.c)(0x65EEC00D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_smc.h)(0x65EEC00D)
 I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65EEC00D)
@@ -359,6 +358,23 @@ I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
 I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65EEC00C)
 I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65EEC00C)
 I (E:/Keli/PACKS/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65EEC00D)
+F (E:/Keli/PACKS/NXP/MKL46Z4_DFP/10.0.3/utilities/fsl_assert.c)(0x65EEC00D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_assert.o --omf_browse .\objects\fsl_assert.crf --depend .\objects\fsl_assert.d)
+I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65EEC00D)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65EEC00C)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65EEC00C)
+I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (E:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65EEC00C)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65EEC00C)
+I (E:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65EEC00D)
+I (E:/Keli/PACKS/NXP/MKL46Z4_DFP/10.0.3/utilities/fsl_debug_console.h)(0x65EEC00D)
 F (E:/Keli/PACKS/NXP/MKL46Z4_DFP/10.0.3/utilities/fsl_debug_console.c)(0x65EEC00D)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IE:\Keli\PACKS\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\drivers-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IE:\Keli\PACKS\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_debug_console.o --omf_browse .\objects\fsl_debug_console.crf --depend .\objects\fsl_debug_console.d)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E4AD2)
 I (E:\Keli\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
